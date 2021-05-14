@@ -26,5 +26,4 @@ object AppModule {
     @Singleton
     @Provides
     fun provideRunDAO(db : RunningDatabase) = db.getRunDao()
-
 }

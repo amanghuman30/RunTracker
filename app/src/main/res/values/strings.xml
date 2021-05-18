@@ -3,6 +3,14 @@
 
     <string name="google_maps_key">AIzaSyBci5Iyfs31E11_RMkngK0HV9_tohGQXmY</string>
 
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+
     <string name="your_runs_tab_title">Your Runs</string>
     <string name="statistics_tab_title">Statistics</string>
     <string name="settings_tab_title">Settings</string>
@@ -11,4 +19,5 @@
     <string name="weight_hint">Your Weight</string>
     <string name="weight_unit_text">Kg</string>
     <string name="request_permission_text">Location permission required for the app to function.</string>
+    <string name="continue_setup_btn_text">Continue</string>
 </resources>

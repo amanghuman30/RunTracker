@@ -25,7 +25,7 @@ interface RunDAO {
     fun getAllRunsSortByCaloriesBurned() : LiveData<List<Run>>
 
     @Query("Select * from running_table order by timeInMillis desc")
-    fun getAllRunsSortByTime() : LiveData<List<Run>>
+    fun getAllRunsSortByTimeInMillis() : LiveData<List<Run>>
 
     @Query("Select sum(timeInMillis) from running_table")
     fun getTotalTimeInMillis() : LiveData<Long>

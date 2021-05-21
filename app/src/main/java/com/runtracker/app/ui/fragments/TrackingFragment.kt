@@ -22,6 +22,7 @@ import com.runtracker.app.viewModels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_tracking.*
 import java.util.*
+import javax.inject.Inject
 import kotlin.math.round
 
 @AndroidEntryPoint
@@ -30,7 +31,8 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
     private val mainViewModel : MainViewModel by viewModels()
     private var map : GoogleMap? = null
 
-    private var weight = 80
+    @set:Inject
+    var weight = 80f
 
     private var isTracking = false
     private var pathList = mutableListOf<PolyLine>()

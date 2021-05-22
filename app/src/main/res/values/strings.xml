@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RunTracker</string>
 
-    <string name="google_maps_key">AIzaSyBci5Iyfs31E11_RMkngK0HV9_tohGQXmY</string>
+    <string name="google_maps_key">key_here</string>
 
     <string-array name="filter_options">
         <item>Date</item>
